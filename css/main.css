@@ -66,10 +66,10 @@ ul {
   width: 6em;
 }
 
-@media only screen and (min-width: 25em){
+@media only screen and (min-width: 25em) {
 
   .distance {
-  display: inline-block;
+    display: inline-block;
   }
 
   .km {
@@ -78,18 +78,14 @@ ul {
 
 }
 
-@media only screen and (min-width: 38em){
+@media only screen and (min-width: 38em) {
 
   .distance {
-  display: block;
+    display: block;
   }
 
   .km {
     padding-left: 0;
-  }
-
-  .gutter-1-4 form {
-    padding-top: 12rem;
   }
 
 }
