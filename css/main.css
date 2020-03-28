@@ -1,3 +1,7 @@
+html {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
 .img {
   margin: 0;
   width: 100%;
@@ -13,6 +17,15 @@ header {
 
 .nearest-playgrounds {
   background-color: #efefef;
+}
+
+.icon {
+  position: absolute;
+}
+
+.icon .img {
+  top: 5px;
+  left: 5px;
 }
 
 ul {
@@ -51,4 +64,32 @@ ul {
 
 .playhouses {
   width: 6em;
+}
+
+@media only screen and (min-width: 25em){
+
+  .distance {
+  display: inline-block;
+  }
+
+  .km {
+    padding-left: 6rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em){
+
+  .distance {
+  display: block;
+  }
+
+  .km {
+    padding-left: 0;
+  }
+
+  .gutter-1-4 form {
+    padding-top: 12rem;
+  }
+
 }

@@ -8,44 +8,45 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <div class="grid island-1-2">
-      <h1 class="unit xs-1 s-1 m-1-3 l-1-4"><img class="img logo" src="images/logo.svg" alt=""></h1>
-      <form class="unit xs-1 s-1 m-2-3 l-3-4" method="post" action="//formspree.io/">
-        <label for="search"></label>
-        <input type="search" id="search">
+    <div class="grid island-1-4">
+      <h1 class="unit xs-1 s-1 m-1-3 l-1-4 push-0 island-1-4"><img class="img logo" src="images/logo.svg" alt="Playground Finder"></h1>
+      <form class="unit xs-1 s-1 m-2-3 l-3-4 pad-t-1-4 pad-b-1-4 gutter-1-4 unit-content-center" method="post" action="//formspree.io/">
+        <label class="icon i-18" for="search" title="Search"><img class="img" src="images/search.svg" alt=""></label>
+        <input type="search" id="search" required>
       </form>
     </div>
   </header>
   <div class="grid">
     <div class="unit xs-1 s-1 m-1-3 l-1-4 gutter-1-2 nearest-playgrounds">
-      <h2>Nearest playgrounds</h2>
+      <h2 class="giga bold push-0 pad-t-1-2 pad-b-1-2">Nearest playgrounds</h2>
 
-      <ul class="list-group island-1-2">
-        <li class="bold">373</li>
-        <li class="italic">Distance</li>
-        <li>0.75 km</li>
+      <ul class="list-group island-1-2 push-0 push-1-2">
+        <li class="bold giga">373</li>
+        <li class="italic distance">Distance</li>
+        <li class="distance km">0.75 km</li>
       </ul>
 
-      <ul class="list-group island-1-2">
-        <li class="bold">1700</li>
-        <li class="italic">Distance</li>
-        <li>2.58 km</li>
+      <ul class="list-group island-1-2 push-0 push-1-2">
+        <li class="bold giga">1700</li>
+        <li class="italic distance">Distance</li>
+        <li class="distance km">2.58 km</li>
       </ul>
 
-      <ul class="list-group island-1-2">
-        <li class="bold">960</li>
-        <li class="italic">Distance</li>
-        <li>3.03 km</li>
+      <ul class="list-group island-1-2 push-0 push-1-2">
+        <li class="bold giga">960</li>
+        <li class="italic distance">Distance</li>
+        <li class="distance km">3.03 km</li>
       </ul>
     </div>
 
-    <div class="unit xs-1 m-2-3 l-3-4">
+    <div class="unit xs-1 m-2-3 l-3-4 gutter-1-2">
       <div class="table-wrapper scrollable">
         <table>
-          <caption class="bold not-italic">Playgrounds in the city</caption>
+          <caption class="bold not-italic push-0 island-1-2 tera">Playgrounds in the city</caption>
           <thead>
             <tr>
               <th class="id" scope="col">Park ID</th>
