@@ -1,0 +1,54 @@
+.img {
+  margin: 0;
+  width: 100%;
+}
+
+.logo {
+  max-width: 200px
+}
+
+header {
+  background-color: #ddd;
+}
+
+.nearest-playgrounds {
+  background-color: #efefef;
+}
+
+ul {
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.id {
+  width:6em;
+}
+
+.type {
+  width:6em;
+}
+
+.age {
+  width:6em;
+}
+
+.swings {
+  width:6em;
+}
+
+.slides {
+  width:6em;
+}
+
+.seesaws {
+    width:6em;
+}
+
+.sandboxes {
+    width:6em;
+}
+
+.playhouses {
+    width:6em;
+}
