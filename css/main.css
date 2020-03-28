@@ -4,7 +4,7 @@
 }
 
 .logo {
-  max-width: 200px
+  max-width: 200px;
 }
 
 header {
@@ -22,33 +22,33 @@ ul {
 }
 
 .id {
-  width:6em;
+  width: 6em;
 }
 
 .type {
-  width:6em;
+  width: 6em;
 }
 
 .age {
-  width:6em;
+  width: 6em;
 }
 
 .swings {
-  width:6em;
+  width: 6em;
 }
 
 .slides {
-  width:6em;
+  width: 6em;
 }
 
 .seesaws {
-    width:6em;
+  width: 6em;
 }
 
 .sandboxes {
-    width:6em;
+  width: 6em;
 }
 
 .playhouses {
-    width:6em;
+  width: 6em;
 }
